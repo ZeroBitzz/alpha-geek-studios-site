@@ -1,125 +1,51 @@
 body {
     background-color: rgb(23, 23, 23);
-    color: rgb(0, 255, 123);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Roboto', monospace;
+}
+
+main {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-weight: 900;
+    width: 100%;
+}
+
 a {
     color: rgb(0, 255, 123);
 }
 
-.desc-span {
-    width: 30%;
-    margin-bottom: 30px;
-    color: rgb(182, 182, 182);
-    font-size: 20px;
-}
-
-.name-span {
-    color: rgb(0, 255, 123);
-    animation: name 5s infinite;
-}
-
-.dev-container {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    justify-content: space-between;
-}
-
-.dev-desc {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
-    width: 300px;
-    height: 100px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.dev-about {
-    color: gray;
-}
-
-.splitter {
-    width: 200px;
-    height: 2px;
-    background-color: rgb(0, 255, 123);
-    margin-top: 13px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.split-span {
-    font-size: 20px;
-
-}
-
-.split-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.here-span {
-    color: rgb(0, 255, 123);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .logo {
-    width: 20%;
-    margin-bottom: 50px;
+    max-width: 300px;
 }
 
-.email-div {
-    color: grey;
-    margin-bottom: 100px;
+.description {
+    margin: 30px 0;
 }
 
-.dev-name {
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.profile-name {
+    font-weight: 900;
+    display: block;
+}
+
+.profile img {
+    
 }
 
 .profile-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    max-width: 100px;
 }
-
-@keyframes name {
-    0%   {opacity: 1;}
-    50%  {opacity: .5;}
-    100% {opacity: 1;}
-  }
-
-
-  ::-webkit-scrollbar {
-    width: 10px;
-}
-  
-  ::-webkit-scrollbar-track {
-    background: #000000;
-}
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgb(0, 138, 55);
-}
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 237, 59);
-}
-
-::selection {
-    background: rgb(0, 95, 8);
-    color: #9bffa4;
-  }
