@@ -5,6 +5,9 @@ body {
     justify-content: center;
     margin: 50px;
     font-family: 'Roboto', monospace;
+}::selection {
+    background: rgb(0, 95, 8);
+    color: #9bffa4;
 }
 
 main {
@@ -40,12 +43,29 @@ a {
 .profile-name {
     font-weight: 900;
     display: block;
+    color: rgb(0, 255, 123);
 }
 
-.profile img {
-    
+.profile {
+    width: 100%;
 }
 
 .profile-picture {
     max-width: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  ::-webkit-scrollbar-track {
+    background: #000000;
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(37, 255, 92);
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(37, 255, 92);
 }
